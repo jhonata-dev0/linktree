@@ -1,0 +1,48 @@
+body.pag-projetos {
+  background-image: url(imagens/fundo-2pag.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+
+
+}
+.container-projetos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: 20px;
+  padding: 50px;
+}
+
+.card-projetos {
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+  background-color: #1a1a1a;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.img-mg {
+  width: 500px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.texto {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+}
+.botao-ver {
+    background-color: #007bff; 
+    color: white;            
+    border: none;
+    border-radius: 5px;      
+    padding: 10px 20px;       
+    text-decoration: none;    
+  align-items: center;
+justify-content: center;
+    display: inline-block;}

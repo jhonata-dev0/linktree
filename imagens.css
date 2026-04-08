@@ -1,5 +1,5 @@
 body {
-  background-image: url(imagens/fundo2.jpg);
+  background-image: url(imagens/fundo-1pag.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -18,3 +18,8 @@ display: flex;
     border-radius: 50%;
 
   }
+
+  .card img {
+    width: 100%;
+    border-radius: 10px;
+}
