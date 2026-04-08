@@ -50,6 +50,7 @@ font-weight: bold;
   #perfil img {
     width: 50%;
     height: auto;
+    max-width: 100%;
   }
   .bio {
     font-size: 1.2rem;
@@ -59,6 +60,7 @@ font-weight: bold;
     flex-direction: column;
     margin: 0.5rem 0;
     padding: 0.8rem 1.5rem;
+    text-align: center;
   }
 }
 
@@ -78,6 +80,6 @@ font-weight: bold;
   #perfil img {
     width: 16%;
     height: 250px;
-    font-size: 1.2rem;
+  
   }
   }
