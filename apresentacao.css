@@ -1,0 +1,83 @@
+#header {
+.h1,.p,.foter {
+  text-align: center;
+  color: white;
+  text-shadow: 24px 24px 18px rgba(0, 0, 0, 0.8);
+
+}
+
+
+.bio {text-align: center;
+font-size: 1.3rem;
+color: white;
+text-shadow: 4px 4px 18px rgba(230, 0, 246, 0.8);
+}
+
+.links {
+  text-align: center;
+}
+.linkedin,.projeto, .github
+ {
+  font-size: 1.2rem;
+ display: inline-flex;
+  flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 1rem 2.2rem;
+background-color: #00D2FF;
+color: #fff;
+text-decoration: none;
+border-radius: 0.3rem;
+font-weight: bold;
+ transition: background-color .2s;
+}
+
+.linkedin:hover,.linkedin:focus,
+.projeto:hover,.projeto:focus, 
+.github:hover, .github:focus {
+    background-color: #005582;
+}
+
+.foter {
+  display: flex;
+  justify-content: center;
+  align-items: center
+
+}
+}
+/* Media query para telas pequenas (celulares até 768px) */
+@media (max-width: 768px) {
+  #perfil img {
+    width: 50%;
+    height: auto;
+  }
+  .bio {
+    font-size: 1.2rem;
+  }
+  .linkedin, .projeto, .github {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 0;
+    padding: 0.8rem 1.5rem;
+  }
+}
+
+/* Media query para tablets (769px a 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  #perfil img {
+    width: 25%;
+    height: auto;
+  }
+  .bio {
+    font-size: 1.5rem;
+  }
+}
+
+/* Media query para desktops grandes (acima de 1024px) */
+@media (min-width: 1025px) {
+  #perfil img {
+    width: 16%;
+    height: 250px;
+    font-size: 1.2rem;
+  }
+  }
